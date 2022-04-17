@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+body{background-image: url("https://content.paodeacucar.com/wp-content/uploads/2019/06/mora-sozinho1-1.jpg");
+   background-repeat: no-repeat;
+  font-family: 'PT Sans Narrow', sans-serif;
+  display: blue;
+  flex-direction: column;
+  color: white;
+  margin: 64px;
+  font-weight: bold;
+}
+
+.title {
+  border-bottom:1px solid;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.normalButton{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 8px;
+  padding: 10px;
+  background: #808080;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: 0px;
+  
+}
+
+.normalButton:hover {
+  
+  background: #C0C0C0;
+  
+  
+}
+
+.normalButton:active {
+  background: #808080;
+  
+}
+
+.confirmButton {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 8px;
+  padding: 10px;
+  background: #2D7310;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.confirmButton:hover {
+  background: #4D944C;
+}
+
+.confirmButton:active {
+  background: #4D944C;
+}
+
+.deleteButton {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 8px;
+  padding: 10px;
+  background: #981111;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.deleteButton:hover {
+  background: #fc7777
+}

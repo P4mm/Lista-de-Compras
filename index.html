@@ -1,0 +1,27 @@
+<body>
+  <header>
+    <link href="style.css" rel="stylesheet">
+        <img src="https://i.imgur.com/BMPXs60.png" />
+    <div class="title">
+      <title>
+        </title>
+      <h1>Lista de compras</h1>
+    </div>
+  </header>
+  <main>
+    <div class="content" id="content">
+      <p>Vamos às compras?</p>
+      <p>Adicione os produtos na lista e clique em finalizar</p>
+       Produto: <input type="text" id="item"><br>
+       Quantidade: <input type="text" id="quantidade"><br>
+       <div id="divCategorias"></div>
+       <br><button class="confirmButton" onclick="addItem()">Adicionar Item</button><button class="deleteButton" onclick="excluirElementoTela()" >Excluir um item</button>
+       <br><button class="normalButton" onclick="telaFinal()">Finalizar</button>
+     
+       <div class="mensagem">
+         <p id="mensagem"></p>
+        </div>
+    </div>
+  </main>
+  <link href="app.js" rel="stylesheet" >
+</body>
